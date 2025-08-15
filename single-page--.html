@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>എന്റെ ബ്ലോഗ് — Malayalam Blog Starter</title>
+  <meta name="description" content="ഒരു ലളിതവും വേഗത്തിലും പ്രവർത്തിക്കുന്ന മലയാളം ബ്ലോഗ് ടെംപ്ലേറ്റ്." />
+
+  <!-- Malayalam fonts from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@300;400;500;600;700;800;900&family=Noto+Serif+Malayalam:wght@400;500;600;700&family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">
+
+  <!-- App CSS -->
+  <link rel="stylesheet" href="css/blog.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#content">പ്രധാന ഉള്ളടക്കത്തിലേക്ക് കടക്കുക</a>
+
+  <header class="site-header container">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">📝</span>
+      <a href="#" class="site-title">എന്റെ ബ്ലോഗ്</a>
+    </div>
+
+    <nav class="site-nav" aria-label="പ്രധാന മെനു">
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-list">
+        <span class="menu-icon" aria-hidden="true">☰</span>
+        മെനു
+      </button>
+      <ul id="nav-list" class="nav-list">
+        <li><a href="#">ഹോം</a></li>
+        <li><a href="#posts">ലേഖനങ്ങൾ</a></li>
+        <li><a href="#about">കുറിച്ച്</a></li>
+        <li><a href="#contact">ബന്ധപ്പെടുക</a></li>
+      </ul>
+    </nav>
+
+    <div class="actions">
+      <label class="theme-switch">
+        <input type="checkbox" id="themeToggle" aria-label="ഡാർക്ക്‌ മോഡ് മാറ്റുക">
+        <span>🌙</span>
+      </label>
+    </div>
+  </header>
+
+  <main id="content" class="container">
+    <section class="hero">
+      <h1>മലയാളത്തിൽ സുന്ദരമായി എഴുതാൻ ലളിതമായ ടെംപ്ലേറ്റ് ✍️</h1>
+      <p>ഈ പേജ് <strong>Noto Sans Malayalam</strong>, <strong>Noto Serif Malayalam</strong>, <strong>Manjari</strong> എന്നീ മികച്ച മലയാളം ഫോണ്ടുകൾ ഉപയോഗിക്കുന്നു.</p>
+      <form class="search-box" role="search" aria-label="തെരച്ചിൽ">
+        <input type="search" placeholder="ലേഖനങ്ങൾ തേടുക…" aria-label="ലേഖനങ്ങൾ തേടുക">
+        <button type="submit">തിരയുക</button>
+      </form>
+    </section>
+
+    <section id="posts" class="post-grid">
+      <article class="post-card">
+        <a href="#">
+          <img src="https://picsum.photos/seed/kerala/800/500" alt="കേരളത്തിന്റെ ഒരു പ്രകൃതി ദൃശ്യം" loading="lazy">
+          <h2>പ്രഥമ ലേഖനം: ബ്ലോഗിംഗ് എങ്ങനെ തുടങ്ങാം</h2>
+          <p>ഡൊമെയ്ൻ, ഹോസ്റ്റിംഗ്, കോൺറന്റിന്റെ പ്ലാൻ—എല്ലാം മലയാളത്തിൽ വളരെ എളുപ്പമായി.</p>
+          <span class="meta">15 ഓഗസ്റ്റ് 2025 • 4 മിനിറ്റ് വായന</span>
+        </a>
+      </article>
+
+      <article class="post-card">
+        <a href="#">
+          <img src="https://picsum.photos/seed/malayalam/800/500" alt="പുസ്തകങ്ങളും ലാപ്‌ടോപ്പും ഉള്ള ഒരു മേശ" loading="lazy">
+          <h2>ഫോണ്റ്റുകളുടെ പ്രാധാന്യം: മലയാളം സുന്ദരമാക്കാം</h2>
+          <p>ശ്രദ്ധാപൂർവ്വം തിരഞ്ഞെടുക്കുന്ന ഫോണ്ടുകൾ വായനക്കാരന്റെ അനുഭവം മാറ്റിമറിക്കും.</p>
+          <span class="meta">12 ഓഗസ്റ്റ് 2025 • 3 മിനിറ്റ് വായന</span>
+        </a>
+      </article>
+
+      <article class="post-card">
+        <a href="#">
+          <img src="https://picsum.photos/seed/tech/800/500" alt="തെക്‌നോളജി സംബന്ധമായ ചിത്രങ്ങൾ" loading="lazy">
+          <h2>SEO അടിസ്ഥാനങ്ങൾ: മലയാള ബ്ലോഗിന്ന് ഉപകാരപ്രദം</h2>
+          <p>ടൈറ്റിൽ, തുറമുഖ വിവരണം, ശരിയായ ഹെഡിങ്—ഇവ എങ്ങനെ ശരിയാക്കാം എന്ന് പഠിക്കാം.</p>
+          <span class="meta">10 ഓഗസ്റ്റ് 2025 • 6 മിനിറ്റ് വായന</span>
+        </a>
+      </article>
+    </section>
+
+    <section id="about" class="about">
+      <h2>ബ്ലോഗ് കുറിച്ച്</h2>
+      <p>ഈ ടെംപ്ലേറ്റ് ഉപയോഗിച്ച് നിങ്ങൾക്ക് മലയാളത്തിൽ വേഗത്തിൽ ഒരു ബ്ലോഗ് തയ്യാറാക്കാം.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>ബന്ധപ്പെടുക</h2>
+      <form class="contact-form" onsubmit="return false">
+        <label>പേര്
+          <input type="text" name="name" placeholder="നിങ്ങളുടെ പേര്">
+        </label>
+        <label>ഇമെയിൽ
+          <input type="email" name="email" placeholder="name@example.com">
+        </label>
+        <label>സന്ദേശം
+          <textarea name="message" rows="5" placeholder="നിങ്ങളുടെ സന്ദേശം ഇവിടെ എഴുതുക…"></textarea>
+        </label>
+        <button type="submit">അയക്കുക</button>
+        <p class="form-note">ഡെമോ മാത്രമാണ് — യാതൊരു ഡാറ്റയും സർവറിലേക്ക് അയക്കില്ല.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 — എന്റെ ബ്ലോഗ്. എല്ലാ അവകാശങ്ങളും സംരക്ഷിച്ചിട്ടുണ്ട്.</p>
+    </div>
+  </footer>
+
+  <!-- App JS -->
+  <script src="js/blog.js" defer></script>
+</body>
+</html>
